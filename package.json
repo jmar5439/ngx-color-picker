@@ -1,6 +1,6 @@
 {
   "name": "ngx-color-picker-angular-14",
-  "version": "14",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
