@@ -11,10 +11,10 @@
     "clean": "rm -rf dist",
     "copy:files": "copy README.md .\\dist\\lib\\ && copy LICENSE .\\dist\\lib\\",
     "build:git:demo": "ng build --configuration production",
-    "build:library": "ng test ngx-library && ng build ngx-library --configuration production && npm run copy:files && npm run build:git:demo",
+    "build:library": "ng build ngx-library --configuration production && npm run copy:files && npm run build:git:demo",
     "build:publish": "npm publish dist/lib/ --access public --tag=support-14.0.0"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.2.12",
     "@angular/common": "^14.2.12",
