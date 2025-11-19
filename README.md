@@ -1,6 +1,6 @@
 # ngx-color-picker
 
-This is an updated version of @iplab/ngx-color-picker for Angular 14.
+This is an updated version of @iplab/ngx-color-picker for Angular 17.
 
 by [@jmar5439](https://www.linkedin.com/in/jordi-marti-carreras-13949323/)
 
